@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Format FmtName="FMT_DXPT_DX0001_IN" FmtDesc="dxpt fmt" Fmttype="string">
+	<meta>
+		<hello>first</hello>
+		<good>second</good>
+		<gold>third</gold>
+	</meta>
+	<meta1>
+		<what>why</what>
+	</meta1>
+</Format>
