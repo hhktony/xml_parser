@@ -1,6 +1,6 @@
 CC = gcc
-CFLGAS = `xml2-config --cflags` -Wall -W -g
-LDFLAGS = `xml2-config --libs` -lpthread
+CFLGAS = `xml2-config --cflags` -Wall -W -g #-pg
+LDFLAGS = `xml2-config --libs` #-lpthread #-pg
 objs = $(patsubst %.c, %.o, $(wildcard *.c))
 
 test : $(objs)
